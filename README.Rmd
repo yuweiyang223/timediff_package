@@ -2,7 +2,11 @@
 title: "Learn how to use timediff"
 output: github_document
 ---
-
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE
+)
+```
 
 # timediff
 
@@ -20,10 +24,9 @@ The function will remove the NA values before calculation. No extra work needed 
 
 timediff is not yet on CRAN. But you can download it from github repository. The development version from [GitHub](https://github.com/) with:
 
-```{r}
+``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2021/timediff_package")
-library(timediff)
+devtools::install_github("stat545ubc-2021/timediff_package"
 ```
 
 ## Example
@@ -31,6 +34,7 @@ library(timediff)
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
+library(timediff)
 # example 1
 timediff(as.Date("2021-10-01"), as.Date("2021-10-04"))
 
