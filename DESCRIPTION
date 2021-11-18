@@ -1,6 +1,6 @@
 Package: timediff
 Title: Calculate the time difference between two dates
-Version: 0.0.0.9000
+Version: 0.1.1
 Authors@R: 
     person(given = "Yuwei",
            family = "Yang",
