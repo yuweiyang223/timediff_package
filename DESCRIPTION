@@ -1,16 +1,23 @@
 Package: timediff
-Title: What the Package Does (One Line, Title Case)
+Title: Calculate the time difference between two dates
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Yuwei",
+           family = "Yang",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "yuweiyang223@gmail.com")
+Description: 
+    This package timediff contains a function named 'timediff()'. 
+    Use 'timediff(start_date, end_date)' will give you the time difference between the start date and end date as a number of years rounded to two decimal places.
+    The inputs need to be in date format. Use 'ymd()' from lubridate package or 'as.Date()' from base package. 
+    The function will remove the NA values before calculation. No extra work needed to handle NA values. 
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Config/testthat/edition: 3
+Imports: 
+    datateachr,
+    lubridate,
+    testthat
