@@ -2,7 +2,7 @@
 % Please edit documentation in R/timediff.R
 \name{timediff}
 \alias{timediff}
-\title{timediff() calculate the time difference between two dates}
+\title{timediff() function}
 \usage{
 timediff(start_date, end_date, na.rm = TRUE)
 }
@@ -17,7 +17,7 @@ timediff(start_date, end_date, na.rm = TRUE)
 A number in unit of year rounded to two decimal places
 }
 \description{
-It will return the time difference as a number in years rounded to two decimal places
+This function calculate the time difference between two dates.It will return the time difference as a number in years rounded to two decimal places
 }
 \details{
 Inputs need to be in date format. You may use as.Date() or ymd() from lubridate package to change the character or number into date. If your inputs are not date, the function will return an error message and tells you what format you have entered. So you can make adjustments accordingly.
