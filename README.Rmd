@@ -15,13 +15,13 @@ The goal of `timediff package` is to calculate the time difference between two d
 
 ## Description of package
 
-This 'package timediff' contains a function named `timediff()`. 
+This ‘package timediff’ contains a function named `timediff()`.
 
 Use `timediff(start_date, end_date)` will return the time difference between the start date and end date as a number of years rounded to two decimal places.
 
-The inputs need to be in date format. Using `ymd()` from `lubridate package` or `as.Date()` from base package. 
+The inputs need to be in date format. Using `ymd()` from `lubridate package` or `as.Date()` from base package.
 
-This function will remove the NA values before calculation. No extra work needed to handle NA values. 
+This function will remove the NA values before calculation. No extra work is needed to handle NA values.
 
 ## Installation
 

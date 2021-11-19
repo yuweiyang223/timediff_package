@@ -18,7 +18,7 @@ The inputs need to be in date format. Using `ymd()` from
 `lubridate package` or `as.Date()` from base package.
 
 This function will remove the NA values before calculation. No extra
-work needed to handle NA values.
+work is needed to handle NA values.
 
 ## Installation
 

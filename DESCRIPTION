@@ -1,6 +1,6 @@
 Package: timediff
 Title: Calculate the time difference between two dates
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(given = "Yuwei",
            family = "Yang",
@@ -8,9 +8,9 @@ Authors@R:
            email = "yuweiyang223@gmail.com")
 Description: 
     This package timediff contains a function named 'timediff()'. 
-    Use 'timediff(start_date, end_date)' will give you the time difference between the start date and end date as a number of years rounded to two decimal places.
+    Using 'timediff(start_date, end_date)' will return the time difference between the start date and end date as a number of years rounded to two decimal places.
     The inputs need to be in date format. Use 'ymd()' from lubridate package or 'as.Date()' from base package. 
-    The function will remove the NA values before calculation. No extra work needed to handle NA values. 
+    The function will remove the NA values before calculation. No extra work is needed to handle NA values. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

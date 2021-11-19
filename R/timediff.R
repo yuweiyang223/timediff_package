@@ -1,14 +1,14 @@
 #' timediff() function
 #'
-#' This function calculate the time difference between two dates.It will return the time difference as a number in years rounded to two decimal places
+#' This function calculates the time difference between two dates. It will return the time difference as a number in years rounded to two decimal places.
 #'
 #' @param start_date The date you want to calculate the time difference from this date
 #' @param end_date The date you want to calculate the time difference to this date
 #' @param na.rm Remove NA values before calculation
 #'
-#' @return A number in unit of year rounded to two decimal places
+#' @return A number in the unit of years rounded to two decimal places
 #'
-#' @details Inputs need to be in date format. You may use as.Date() or ymd() from lubridate package to change the character or number into date. If your inputs are not date, the function will return an error message and tells you what format you have entered. So you can make adjustments accordingly.
+#' @details Inputs need to be in date format. You may use as.Date() or ymd() from the lubridate package to change the character or number into date format. If your inputs are not dates, the function will return an error message and tell you what format you have entered. So you can make adjustments accordingly.
 #'
 #' @examples
 #' timediff(as.Date("2021-10-01"), as.Date("2021-10-04"))
