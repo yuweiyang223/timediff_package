@@ -26,7 +26,7 @@ with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2021/timediff_package"
+devtools::install_github("stat545ubc-2021/timediff_package")
 ```
 
 ## Example
